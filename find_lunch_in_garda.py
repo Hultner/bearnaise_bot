@@ -8,6 +8,11 @@ import click
 @click.option('--menu_keyword', prompt='What do you want to eat?',
               help='Something you would like the meal to contain -like \"bearnise\n ')
 def find_restaurants(menu_keyword: str):
+    if menu_keyword.lower() == 'bearnaise':
+        print('Mmmmmm bearnaise...\n\n')
+    else:
+        print('Good choice, but will you consider bearnaise for next time?\n\n')
+
     session = HTMLSession()
     r = session.get('http://www.kvartersmenyn.se/find/_/city/19/area/garda_161/day/1')
     restaurants = r.html.find('div.row.t_lunch')
