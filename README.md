@@ -2,4 +2,4 @@
 
 Get your sauce in Gårda.
 
-Supports serch for whatever ingredient you'd like, but it prefers bearnaise.
+Supports search for whatever ingredient you'd like, but it prefers bearnaise.
