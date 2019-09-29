@@ -14,7 +14,7 @@ def find_restaurants(menu_keyword: str):
         print('Good choice, but will you consider bearnaise for next time?\n\n')
 
     session = HTMLSession()
-    r = session.get('http://www.kvartersmenyn.se/find/_/city/19/area/garda_161/day/1')
+    r = session.get('http://www.kvartersmenyn.se/find/_/city/19/area/garda_161')
     restaurants = r.html.find('div.row.t_lunch')
 
     menus_with_keyword = []
