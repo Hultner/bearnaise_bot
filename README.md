@@ -1,4 +1,4 @@
-# bearnaise_bot
+# bearnaise-bot
 
 Get your sauce in Gårda.
 
