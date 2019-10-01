@@ -12,8 +12,8 @@ setup(
     description="Helps you fins a place in Gårda to have lunch.",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    version="0.1.1",
-    py_modules=["app"],
+    version="0.1.2",
+    py_modules=["find_lunch_in_garda"],
     install_requires=["Click", "requests-html", "fuzzywuzzy"],
     entry_points="""
         [console_scripts]
